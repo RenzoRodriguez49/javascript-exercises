@@ -3,4 +3,6 @@ const palindromes = function (string) {
   return processedString.split("").reverse().join("") == processedString;
 };
 
+console.log(palindromes("racecar!"));
+
 module.exports = palindromes;
